@@ -14,14 +14,18 @@ class String
       return true 
     else false
     end 
-
   end
 
   def exclamation?
-
-  end
+    if self.include?("!")
+      return true 
+    else false
+    end 
+ end
 
   def count_sentences
+    self.include?(".") do |period|
+      
 
   end
 end
