@@ -25,7 +25,7 @@ class String
 
   def count_sentences
     self.include?(".") do |period|
-      
+      period
 
   end
 end
