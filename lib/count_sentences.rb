@@ -3,7 +3,9 @@ require 'pry'
 class String
 
   def sentence?
-    if self
+    if self.include?(".")
+      return true 
+    else false 
   end
 
   def question?
