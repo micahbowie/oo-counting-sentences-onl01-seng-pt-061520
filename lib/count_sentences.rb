@@ -26,8 +26,7 @@ class String
   def count_sentences
     self.each do |period|
       if period.include?(".")
-        period.include? = sentence 
-        sentence.size
+        period.include?.size
       else return 0
       end 
     end 
