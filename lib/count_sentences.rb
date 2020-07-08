@@ -5,8 +5,9 @@ class String
   def sentence?
     if self.include?(".")
       return true 
-    else false 
-  end
+    else false
+    end 
+  end 
 
   def question?
 
