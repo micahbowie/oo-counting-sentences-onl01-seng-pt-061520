@@ -10,6 +10,10 @@ class String
   end 
 
   def question?
+    if self.include?("?")
+      return true 
+    else false
+    end 
 
   end
 
