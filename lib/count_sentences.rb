@@ -30,5 +30,6 @@ class String
         sentence.size
       else return 0
       end 
+    end 
   end
 end
